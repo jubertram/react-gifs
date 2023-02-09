@@ -11,9 +11,11 @@ class App extends Component {
 
     this.state = {
       gifs: [],
-      selectGifId: "tsX3YMWYzDPjAARfeg"
+      selectGifId: "du3J3cXyzhj75IOgvA"
     };
+    this.search("code");
   }
+
 
   select = (query) => {
     const id = query.split('/')[4];
