@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import SearchBar  from './search_bar';
+import giphy from "giphy-api";
+import SearchBar from './search_bar';
 import Gif from './gif';
 import GifList from './gif_list';
-import giphy from "giphy-api";
 
 
 class App extends Component {
